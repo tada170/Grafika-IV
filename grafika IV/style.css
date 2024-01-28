@@ -1,0 +1,205 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 80%;
+    margin-left: 10%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+p {
+    display: inline-block;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+}
+
+li {
+    display: flex;
+    padding: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero {
+    background: url('obrazky/hero.jpg');
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.heading {
+    font-size: 70px;
+}
+
+header,
+.heading,
+button,
+.weight {
+    font-weight: 600;
+}
+
+main {
+    position: absolute;
+    width: 45%;
+}
+
+button {
+    border: none;
+    background-color: #e7b051;
+    width: 170px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.demos {
+    background-color: white;
+    border: 2px solid black;
+}
+
+.benefits {
+    padding-top: 70px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+}
+
+.benefit {
+    width: 20%;
+    margin-left: 10%;
+}
+
+.center {
+    text-align: center;
+}
+
+.Web-design {
+    display: flex;
+    flex-direction: row;
+    padding: 5% 10%;
+    justify-content: center;
+}
+
+.grey {
+    background-color: #ececec;
+}
+
+.black {
+    background-color: rgb(20, 23, 28);
+    color: white;
+}
+
+.img-size {
+    height: 80%;
+}
+
+.content {
+    width: 35%;
+    margin: auto 0;
+    padding: 3%;
+}
+
+.text-size1 {
+    font-size: 30px;
+}
+
+.text-size2 {
+    font-size: 45px;
+}
+
+.featured-work {
+    padding: 7% 17%;
+
+}
+
+.img-size2 {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.foot {
+    width: 45%;
+}
+
+footer {
+    margin-left: 15%;
+    width: 70%;
+    padding: 30px;
+}
+
+footer a {
+    text-decoration: underline;
+}
+
+.margin-left {
+    margin-left: 15%;
+}
+.hamburger{
+    display: none;
+}
+@media only screen and (max-width: 768px) {
+    .active {
+        background-color: #04AA6D;
+        color: white;
+    }
+    .hamburger{
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+    }
+    .topnav{
+        display: none;
+    }
+    .heading{
+        font-size: 50px;
+    }
+    main{
+        width: 80%;
+    }
+    .benefits{
+        flex-direction: column;
+        height: 750px;
+    }
+    .benefit{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .img-size1{
+        width: 100%;
+    }
+    .Web-design{
+        flex-direction: column;
+    }
+    .content{
+        width: 100%;
+    }
+    .foot{
+        width: 100%;
+    }
+    footer{
+        margin-left:10%;
+    }
+}
